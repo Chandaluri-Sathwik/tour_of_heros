@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tour_of_heros/static/css/main.48e1ce0e.css",
+    "main.js": "/tour_of_heros/static/js/main.fdb71884.js",
+    "index.html": "/tour_of_heros/index.html",
+    "main.48e1ce0e.css.map": "/tour_of_heros/static/css/main.48e1ce0e.css.map",
+    "main.fdb71884.js.map": "/tour_of_heros/static/js/main.fdb71884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48e1ce0e.css",
+    "static/js/main.fdb71884.js"
+  ]
+}
