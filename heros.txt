@@ -1,0 +1,81 @@
+Navy blue primaary #03b244
+
+seconderay #ffc107(orange) or #f7dc6f
+
+background-color:#f5f5
+ 
+.movie-name{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 0rem;
+    font-style: italic;
+}
+.movie-year{
+    color: #888;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0rem;
+}
+.search-items{
+    width:70vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    flex-wrap: wrap;
+    width: 53%;
+}
+.search-item {
+    box-shadow: 1px 2px #a1a1a1;
+    margin: 0px 5px 25px 5px;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.movie-poster1{
+    height:37vh;
+}
+.movie-poster1 img {
+    width: 100%;
+    height:100%;
+    border-radius: 4px;
+}
+<div>
+               <p class="movie-name">${data.Title}</p>
+               <p class="movie-year">${data.Year} </p>
+           </div>
+
+
+
+
+C:\Users\User\Desktop\tour_of_heroes>npx json-server --watch data/db.json --port 8000
+--watch/-w can be omitted, JSON Server 1+ watches for file 
+changes by default
+JSON Server started on PORT :8000
+Press CTRL-C to stop
+Watching data/db.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:8000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:8000/heros
+
+
+with increase in a beta is decreasing and alpha is constant
+
+with increase in beta and alpha are increasing
+
+with increase in c beta is decreasing and alpha is decreasing
+
+first top mounted bar differential gurinchi
+advantages where was it used 
+fusion model 
+stress and strain analysis
+matlab 

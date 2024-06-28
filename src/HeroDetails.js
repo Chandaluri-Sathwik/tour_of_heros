@@ -7,7 +7,7 @@ import { useState } from "react";
 const HeroDetails = () => {
    
     const {id}=useParams();
-    const {data,isPending,error,nameHero,setName}=useFetch(`http://localhost:8000/heros/${id}`,{
+    const {data,isPending,error,nameHero,setName}=useFetch(`https://chandaluri-sathwik.github.io/tourOfHerosApi/data/db.json/${id}`,{
      method:"GET"
     })
     const [buttonLoad,setButtonLoad]=useState(false)
@@ -16,7 +16,7 @@ const HeroDetails = () => {
         data.name=nameHero;
         setButtonLoad(true);
 
-        fetch(`http://localhost:8000/heros/${id}`,{
+        fetch(`https://chandaluri-sathwik.github.io/tourOfHerosApi/data/db.json/${id}`,{
             method:"PUT",
             body:JSON.stringify(data),
         }
