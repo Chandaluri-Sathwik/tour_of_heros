@@ -16,7 +16,7 @@ function App() {
           <DashBoard/>
           </Route>
 
-          <Route path="/tour_of_heros/heros" exact>
+          <Route path="/tour_of_heros/heros"  exact>
             <Heros/>
           </Route>
 
