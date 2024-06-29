@@ -7,7 +7,7 @@ const Heros=()=>{
             <h2>All Heros!</h2>
           {error && <div>{error}</div>}
           {isPending && <div>Loading.....</div>}
-          { data && <HeroList data={data} />}
+          { data && <HeroList data={data.heros} />}
         </div>
      );
 }

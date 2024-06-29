@@ -4,7 +4,7 @@ const HeroList = (props) => {
     const data=props.data;
     return ( 
         <div className="herolist">
-                {data.heros.map((hero)=>(
+                {data.map((hero)=>(
                     <div className="heroitem" key={hero.id}>
                         <Link to={"/heros/"+hero.id }>
                         <div className="heroposter">
