@@ -12,11 +12,11 @@ function App() {
       <div className="content">
         <Switch>
 
-          <Route path="/tour_of_heros/" exact>
+          <Route path="/" exact>
           <DashBoard/>
           </Route>
 
-          <Route path="/tour_of_heros/heros"  exact>
+          <Route path="/heros"  exact>
             <Heros/>
           </Route>
 
