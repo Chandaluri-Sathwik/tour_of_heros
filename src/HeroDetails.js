@@ -7,7 +7,7 @@ import { useState } from "react";
 const HeroDetails = () => {
    
     const {id}=useParams();
-    const {data,isPending,error,nameHero,setName}=useFetch(`https://chandaluri-sathwik.github.io/tourOfHerosApi/data/db.json/${id}`,{
+    const {data,isPending,error,nameHero,setName}=useFetch(`https://chandaluri-sathwik.github.io/tourOfHerosApi/data/db.json/`,{
      method:"GET"
     })
     const [buttonLoad,setButtonLoad]=useState(false)
